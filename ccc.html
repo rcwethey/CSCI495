@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--allows for responsiveness-->
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"> <!--typography, font-->
+        <link rel="stylesheet" href="ccc_css/styles.css">
+        <link rel="shortcut icon" type="image/png" href="img/CCC-logo.png">
+        
+        <title>Coastal Coffee Cafe | A place for the people</title> <!--section on tab-->
+    </head>
+    <body>
+        <div class="navigation"> <!--main navigation-->
+            <input type="checkbox" id="navi-toggle" class="navigation__checkbox">
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list"> <!--nav list-->
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> About CCC</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span> Benefits</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span> Popular Drinks</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span> Stories</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span> Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header class="header"> <!--header-->
+            <div class=header__logo-box> <!--logo in top left corner-->
+                <img src="img/CCC-logo-white.png" alt="Logo white" class="header__logo">
+            </div>
+            <div class="header__text-box"> <!--header text box and button-->
+                    <h1 class="heading-primary">
+                        <span class="heading-primary--main">Coffee</span>
+                        <span class="heading-primary--sub">is what we do</span>
+                    </h1>
+                    <a href="#section-tours" class="btn btn--white btn--animated">Discover Our Cafe</a> 
+            </div>
+        </header>
+
+        <main>
+            <section class="section-about"> <!--main section of page: about-->
+                <div class="u-center-text u-margin-bottom-big"> 
+                    <h2 class="heading-secondary"> <!--secondary header with animation-->
+                        The benefits of drinking our coffee
+                    </h2>
+                </div>
+                <div class="row"> <!--new row-->
+                    <div class="col-1-of-2">
+                       <h3 class="heading-tertiary u-margin-bottom-small"> <!--3rd heading, just a smaller less interactive version of the 2nd-->
+                           You're going to fall in love with us
+                       </h3>
+                       <p class="paragraph">
+                           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse laborum necessitatibus? 
+                        </p>
+
+                        <h3 class="heading-tertiary u-margin-bottom-small"> <!--3rd heading, just a smaller less interactive version of the 2nd-->
+                            Experience coffee like you never have before
+                        </h3>
+                        <p class="paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse laborum necessitatibus? 
+                        </p>
+
+                        <a href="#" class="btn-text">Learn More &rarr; </a>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition"> <!--this allows for the ability to chose what size photo is appropriate due to the size of the screen. -->
+
+                            <img srcset="img.Coffee-1-small.jpg 300w, img/Coffee-1.jpg 1000w";
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                            alt="Photo 1"
+                            class="composition__photo composition__photo--p1" 
+                            src="img/Coffee-1.jpg">
+                            
+                            <img srcset="img.Coffee-2-small.jpg 300w, img/Coffee-2.jpg 1000w";
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                            alt="Photo 2"
+                            class="composition__photo composition__photo--p2" 
+                            src="img/Coffee-2.jpg">
+
+                            <img srcset="img.Coffee-3-small.jpg 300w, img/Coffee-3.jpg 1000w";
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                            alt="Photo 3"
+                            class="composition__photo composition__photo--p3" 
+                            src="img/Coffee-3.jpg">
+
+                            <!--<img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                            <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-features"> <!--main section of page: features-->
+                <div class="row"> <!--new row-->
+                    <div class="col-1-of-4"> <!--New column-->
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-bolt"></i> <!--these icons are part of a file of classes I found online for free-->
+                            <h3 class="heading-tertiary u-margin-bottom-small">Improve Energy</h3> <!--3rd heading, just a smaller less interactive version of the 2nd-->
+                            <p class="feature-box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse laborum necessitatibus?</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-1-of-4"> <!--New column-->
+                        <div class="feature-box">
+                                <i class="feature-box__icon icon-basic-accelerator"></i> <!--these icons are part of a file of classes I found online for free-->
+                                <h3 class="heading-tertiary u-margin-bottom-small">Burn Fat</h3> <!--3rd heading, just a smaller less interactive version of the 2nd-->
+                                <p class="feature-box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse laborum necessitatibus?</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-1-of-4"> <!--New column-->
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-joypad"></i> <!--these icons are part of a file of classes I found online for free-->                            
+                            <h3 class="heading-tertiary u-margin-bottom-small">Fight Depression</h3> <!--3rd heading, just a smaller less interactive version of the 2nd-->
+                            <p class="feature-box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse laborum necessitatibus?</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-1-of-4"> <!--New column-->
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i> <!--these icons are part of a file of classes I found online for free-->                                               
+                            <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3> <!--3rd heading, just a smaller less interactive version of the 2nd-->
+                            <p class="feature-box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi esse laborum necessitatibus?</p>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <section class="section-tours" id="section-tours"> <!--main section of page: tours-->
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary"> <!--secondary header with animation-->
+                        Most popular drinks
+                    </h2>
+                </div>
+                <div class="row"> <!--new row-->
+                    <div class="col-1-of-3"> <!--this holds a card-->
+                        <div class="card"> <!--this is a card class-->
+                            <div class="card__side card__side--front"> <!--front side of the card-->
+                                <div class="card__picture card__picture--1"> 
+
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--1">
+                                           The Latte
+                                    </span>
+                                </h4>
+                                <div class="card__details"> <!--card details-->
+                                    <ul>
+                                        <li>Complex and satifying</li>
+                                        <li>Hot only</li>
+                                        <li>6 flavors</li>
+                                        <li>Caffine lvl: Low</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-1"> <!--back side of the card-->
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">From Only</p>
+                                        <p class="card__price-value">$3.47</p>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>       
+                    <div class="col-1-of-3"> <!--this holds a card-->
+                        <div class="card"> <!--this is a card class-->
+                            <div class="card__side card__side--front"> <!--front side of the card-->
+                                <div class="card__picture card__picture--2">
+
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--2">
+                                        The Drip Coffee
+                                    </span>
+                                </h4>
+                                <div class="card__details"> <!--Card details-->
+                                    <ul>
+                                        <li>Quick and traditional</li>
+                                        <li>Hot or Cold</li>
+                                        <li>12 Flavors</li>
+                                        <li>Caffine lvl: Medium</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2"> <!--back side of the card-->
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">From Only</p>
+                                        <p class="card__price-value">$2.97</p>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-1-of-3"> <!--this holds a card-->
+                        <div class="card"> <!--this is a card class-->
+                            <div class="card__side card__side--front"> <!--front side of the card-->
+                                <div class="card__picture card__picture--3">
+                                 </div>
+                                 <h4 class="card__heading">
+                                     <span class="card__heading-span card__heading-span--3">
+                                        The Nitro Cold Brew
+                                     </span>
+                                 </h4>
+                                 <div class="card__details"> <!--Card details-->
+                                    <ul>
+                                        <li>New and Inivative</li>
+                                        <li>Cold/Iced only</li>
+                                        <li>4 delicious flavors</li>
+                                        <li>Caffine lvl: High</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3"> <!--back side of the card-->
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">From Only</p>
+                                        <p class="card__price-value">$4.49</p>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white">Order Now</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="u-center-text u-margin-top-huge"> <!--Button at the bottom to take you to booking -->
+                    <a href="#section-tours" class="btn btn--green">Dicover All Coffees</a>
+                </div>
+            </section>
+            <section class="section-stories"> <!--main section of page: stories-->
+                <div class="bg-video">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <source src="img/Double_Espresso.mp4" type="video/mp4"> <!--The background video that will be running behind the sotry section-->
+                        <source src="img/Double_Espresso.webm" type="video/webm"> <!--The background video that will be running behind the sotry section-->
+                        Your browser is not supported!
+                    </video>
+                </div>
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary"> <!--secondary header with animation-->
+                        We Make people genuinely happy
+                    </h2>
+                </div>
+
+                <div class="row"> <!--New row-->
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="img/Tiera_Scott.jpg" alt="Person with coffee" class="story__img story__img--1">
+                            <figcaption class="story__caption">Tiera Scott</figcaption>
+                        </figure>
+
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">I had the best experience with the staff!</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, incidunt, omnis itaque odio eaque repellendus consequuntur quia quas expedita eligendi sit corporis aliquam laudantium, et veniam excepturi consectetur quo tempora!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row"> <!--New row-->
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="img/Jack_Wilson.jpg" alt="Person with coffee" class="story__img story__img--2">
+                            <figcaption class="story__caption">Jack Wilson</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Wow, the best made coffee of my life!</h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, incidunt, omnis itaque odio eaque repellendus consequuntur quia quas expedita eligendi sit corporis aliquam laudantium, et veniam excepturi consectetur quo tempora!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="u-center-text u-margin-top-huge">
+                    <a href="" class="btn-text">Read all stories &rarr;</a>
+                </div>
+            </section>
+            <section class="section-booking"> <!--main section of page: booking-->
+                <div class="row">  <!--new row-->
+                    <div class="book"> 
+                        <div class="book__form">
+                            <form action="#" class="form">  <!-- form through HTML-->
+                                <div class="u-margin-bottom-medium">
+                                    <h2 class="heading-secondary"> <!--secondary header with animation-->
+                                        Start Ordering Now
+                                    </h2>
+                                </div>
+                                <div class="form__group"> <!--name input for the form-->
+                                    <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                                    <label for="name" class="form__label">Full Name</label>
+                                </div>
+                                <div class="form__group"> <!--email input for the form-->
+                                    <input type="email" class="form__input" placeholder="Email Address" id="email" required>
+                                    <label for="email" class="form__label">Email</label>
+                                </div>
+                                <div class="form__group u-margin-bottom-medium">
+                                    <div class="form__radio-group"> <!--Radio group -->
+                                        <input type="radio" class="form__radio-input" id="small" name="size">
+                                        <label for="small" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            Weekly News Letter
+                                        </label>
+                                    </div>
+                                    <div class="form__radio-group"> <!--Radio group -->
+                                        <input type="radio" class="form__radio-input" id="large" name="size">
+                                        <label for="large" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            News Letter + Rewards
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form__group"> <!-- final button-->
+                                    <button class="btn btn--green">Next Step &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer"> <!--footer-->
+            <div class="footer__logo-box">
+                <picture class="footer__logo">
+                    <source srcset="img/CCC-logo-small.png 1x, img/CCC-logo-small.png 2x" 
+                        media="(max-width: 37.5em)">
+                    <img srcset="img/CCC-logo.png" alt="Big logo" class="footer__logo"> <!--This srcset figures out what type of screen it is and determines the better resolution for the screen size-->
+                </picture>
+            </div>
+            <div>
+                <div class="row"> <!--row-->
+                    <div class="col-1-of-2"> <!--new column-->
+                        <div class="footer__navigation"> <!--footer nav-->
+                            <ul class="footer__list"></ul>
+                                <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-1-of-2"> <!--new column-->
+                        <p class="footer__copyright">
+                            Built by Ryan C. Wethey. Senior Computer Information Systems Major @ Coastal Carolina University located at Conway, SC, USA. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--
+        <section clas="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Col 2 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    Col 2 of 4
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    Col 3 of 4
+                </div>
+                
+            </div>
+        </section>
+        -->
+        <div class="popup" id="popup"> <!--Live popup-->
+            <div class="popup__content"> <!--popup info section-->
+                <div class="popup__left"> <!--popup img-->
+                    <img src="img/Tiera_Scott.jpg" alt="Pic of Tour" class="popup__img">
+                    <img src="img/Jack_Wilson.jpg" alt="Pic of Tour" class="popup__img">
+                </div>
+                <div class="popup__right"> <!--popup text-->
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start Ordering now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &nbsp; Please read these terms before booking.</h3>
+                    <p class="popup__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel at dolores tempora sequi perferendis numquam laborum, voluptatibus tenetur, ipsa, mollitia cupiditate! Voluptatibus, eaque! Alias deserunt atque officia id, dolore molestiae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel at dolores tempora sequi perferendis numquam laborum, voluptatibus tenetur, ipsa, mollitia cupiditate! Voluptatibus, eaque! Alias deserunt atque officia id, dolore molestiae! Alias deserunt atque officia id, dolore molestiae! Vel at dolores tempora sequi perferendis numquam laborum, voluptatibus tenetur, ipsa, mollitia cupiditate! Voluptatibus, eaque! Alias deserunt atque officia id, dolore molestiae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel at dolores tempora sequi perferendis numquam laborum, voluptatibus tenetur, ipsa, mollitia cupiditate! Voluptatibus, eaque! Alias deserunt atque officia id, dolore molestiae! Alias deserunt atque officia id, dolore molestiae!</p>
+                    <a href="#" class="btn btn--green">Order now</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
