@@ -941,12 +941,7 @@ body {
   background-size: cover;
   clip-path: polygon(50% 15%, 100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
   -webkit-clip-path: polygon(50% 15%, 100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
-  margin-top: -10rem;
-  /*
-    & > * {
-        transform: skewY(7deg); 
-    }
-    */ }
+  margin-top: -10rem; }
   @media only screen and (max-width: 56.25em) {
     .section-features {
       padding: 10rem 0; } }
