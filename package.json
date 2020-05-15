@@ -6,8 +6,7 @@
   "scripts": {
     "watch:sass": "node-sass sass/main.scss ccc_css/styles.css -w",
     "devserver": "live-server",
-    "start":"npm-run-all --parallel devserver watch:sass",
-
+    "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss ccc_css/styles.comp.css",
     "concat:css": "concat -o ccc_css/styles.concat.css ccc_css/icon-fonts.css ccc_css/styles.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' ccc_css/styles.concat.css -o ccc_css/styles.prefix.css",
@@ -19,8 +18,11 @@
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "concat": "^1.0.3",
-    "node-sass": "4.12.0",
+    "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^6.1.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
